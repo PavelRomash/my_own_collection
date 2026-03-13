@@ -1,0 +1,14 @@
+---
+# Default variables for file_creator role
+
+# Path to the file to create
+file_path: "/tmp/default_file.txt"
+
+# Content to write to the file
+file_content: "Default content from role"
+
+# Whether to force overwrite if file exists with different content
+force_overwrite: false
+
+# Whether to display the result
+display_result: true

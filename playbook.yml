@@ -1,0 +1,12 @@
+---
+- name: Test file_creator role
+  hosts: localhost
+  connection: local
+  gather_facts: no
+
+  roles:
+    - role: file_creator
+      file_path: "/tmp/role_test.txt"
+      file_content: "This file was created by the role!"
+      force_overwrite: true
+      display_result: true

@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+venv312/
+.env/
+*.egg-info/
+dist/
+build/
+
+# Ansible
+*.retry
+*.tar.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store

@@ -1,0 +1,29 @@
+
+REQUIRED
+namespace: my_own_namespace
+name: yandex_cloud_elk
+version: 1.0.0
+readme: README.md
+authors:
+
+Your Name pavel.romash1994@mail.ru
+description: Collection for Yandex Cloud and ELK stack management
+license:
+
+GPL-3.0-or-later
+tags:
+
+yandex
+
+cloud
+
+elk
+
+file
+
+collection
+repository: https://github.com/PavelRomash/my_own_collection.git/
+documentation: https://github.com/PavelRomash/my_own_collection.git/README.md
+homepage: https://github.com/PavelRomash/my_own_collection.git/
+issues: https://github.com/PavelRomash/my_own_collection.git/
+build_ignore: []

@@ -1,0 +1,12 @@
+---
+- name: Create file using custom module
+  my_own_namespace.yandex_cloud_elk.my_own_module:
+    path: "{{ file_path }}"
+    content: "{{ file_content }}"
+    force: "{{ force_overwrite | default(false) }}"
+  register: result
+
+- name: Display result
+  debug:
+    var: result
+  when: display_result | default(false)
